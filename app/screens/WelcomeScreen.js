@@ -5,10 +5,10 @@ import colors from '../config/colors';
 
 function WelcomeScreen(props) {
 	return (
-		<ImageBackground style={styles.background} source={require('../assets/background.jpg')}>
+		<ImageBackground blurRadius={10} style={styles.background} source={require('../assets/background.jpg')}>
 			<View style={styles.logoContainer}>
 				<Image style={styles.logo} source={require('../assets/logo.png')} />
-				<Text style={styles.logoText}>Sell what you don't need.</Text>
+				<Text style={styles.tagline}>Sell what you don't need.</Text>
 			</View>
 			<View style={styles.buttonsContainer}>
 				<AppButton title="Login" />
@@ -33,9 +33,11 @@ const styles = StyleSheet.create({
 		top: 70,
 		alignItems: 'center',
 	},
-	logoText: {
+	tagline: {
 		color: '#fff',
-		fontSize: 20,
+		fontSize: 25,
+		fontWeight: '600',
+		paddingVertical: 20,
 	},
 });
 
