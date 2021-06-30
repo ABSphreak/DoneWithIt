@@ -9,14 +9,16 @@ import Screen from '../components/Screen';
 const initialMessages = [
 	{
 		id: 1,
-		title: 'T1',
-		description: 'D1',
+		title: 'Abhinav Sharma',
+		description:
+			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident optio quidem voluptatum, similique deleniti in voluptatibus aperiam laboriosam placeat obcaecati fugit voluptate vitae. Illo accusamus magnam maxime voluptas numquam harum corrupti reprehenderit nam molestias, minima eum vero debitis ex natus dolorum porro temporibus aspernatur assumenda adipisci voluptatem expedita dignissimos cum cumque pariatur! Minus aliquid ipsam a expedita delectus aspernatur nobis itaque doloribus velit quia nam eum, unde, porro a',
 		image: require('../assets/abs.jpeg'),
 	},
 	{
 		id: 2,
-		title: 'T2',
-		description: 'D2',
+		title: 'Abhinav Sharma',
+		description:
+			'dolorum porro temporibus aspernatur assumenda adipisci voluptatem expedita dignissimos cum cumque pariatur! Minus aliquid ipsam a expedita delectus aspernatur nobis itaque doloribus velit quia nam eum, unde, porro accusamus architecto eaque, tempora sed nisi dolorem eos quam alias. Unde atque placeat sapiente veritatis officia? Officia suscipit consectetur necessitatibus tempora unde ipsa saepe, a velit corporis, aut nostrum quo quia sit harum sunt quas, mo',
 		image: require('../assets/abs.jpeg'),
 	},
 ];
@@ -49,8 +51,9 @@ function MessagesScreen(props) {
 					setMessages([
 						{
 							id: 2,
-							title: 'T2',
-							description: 'D2',
+							title: 'Abhinav Sharma',
+							description:
+								'dolorum porro temporibus aspernatur assumenda adipisci voluptatem expedita dignissimos cum cumque pariatur! Minus aliquid ipsam a expedita delectus aspernatur nobis itaque doloribus velit quia nam eum, unde, porro accusamus architecto eaque, tempora sed nisi dolorem eos quam alias. Unde atque placeat sapiente veritatis officia? Officia suscipit consectetur necessitatibus tempora unde ipsa saepe, a velit corporis, aut nostrum quo quia sit harum sunt quas, mo',
 							image: require('../assets/abs.jpeg'),
 						},
 					])
