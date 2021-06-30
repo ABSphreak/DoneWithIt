@@ -5,21 +5,21 @@ import Icon from '../components/Icon';
 import ListItem from '../components/ListItem';
 import ListItemSeparator from '../components/ListItemSeparator';
 import Screen from '../components/Screen';
-import colors from '../config/colors';
+import defaultStyles from '../config/styles';
 
 const menuItems = [
 	{
 		title: 'My Listings',
 		icon: {
 			name: 'format-list-bulleted',
-			backgroundColor: colors.primary,
+			backgroundColor: defaultStyles.colors.primary,
 		},
 	},
 	{
 		title: 'My Messages',
 		icon: {
 			name: 'email',
-			backgroundColor: colors.secondary,
+			backgroundColor: defaultStyles.colors.secondary,
 		},
 	},
 ];
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
 		marginVertical: 20,
 	},
 	screen: {
-		backgroundColor: colors.lightGray,
+		backgroundColor: defaultStyles.colors.lightGray,
 	},
 });
 
